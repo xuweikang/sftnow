@@ -2,7 +2,6 @@ $(function(){
     navBarOption.init();
     carousel.init();
     footer.init();
-    alert("这是mobile");
 });
 
 
