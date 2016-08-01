@@ -18,6 +18,18 @@ class IndexController extends HomebaseController {
     	$this->display(":index");
     }
 
+    function render($page){
+    	if($page==''){
+
+    	}else if($page=='about'){
+    	       $this->display(':about');
+    	}else
+    	 {
+
+    	}
+
+    }
+
 }
 
 

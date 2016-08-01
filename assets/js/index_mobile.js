@@ -75,7 +75,7 @@ var navBarOption={
 };
 
 var carousel= {
-    bianliang: {"src": ["assets/images/lunboImg/carousel1.png", "assets/images/lunboImg/carousel2.png", "assets/images/lunboImg/carousel3.png"],"src2":["assets/images/lunboImg/carousel1_1.png","assets/images/lunboImg/carousel2_2.png","assets/images/lunboImg/carousel3_3.png"]},
+    bianliang: {"src": ["assets/images/lunboImg/c1.png", "assets/images/lunboImg/c2.png", "assets/images/lunboImg/c3.png"],"src2":["assets/images/lunboImg/carousel1_1.png","assets/images/lunboImg/carousel2_2.png","assets/images/lunboImg/carousel3_3.png"]},
     carouselOption:function(){
         var div=$("<div id='slider-box'></div>");
         var ul=$("<ul id='slider'></ul>");
@@ -96,9 +96,17 @@ var carousel= {
             autoTime: 4000
         });
     },
+    contentHover:function(){
+        $("article .content li").each(function(){
+            var cover=$("<div class='cover2'></div>");
+            $(this).append(cover);
+            $(this).find("article .content .con span").css({"width":"236px","top":"147px","display":"block","left":0});
+        });
+    },
     init: function () {
         this.carouselOption();
         this.start();
+        this.contentHover();
     }
 };
 
