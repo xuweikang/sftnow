@@ -40,7 +40,28 @@ header .head_top_right img{position: relative;top: 4px;right: 7px;border: 0}
 
 header .nav{width: 100%;}
 header .nav_header .menu{float: right;margin: 0;padding: 0}
-header .nav_header ul.menu li{
+header .nav_header .menu .menu_menu{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 50;
+    top: 63px;
+    left: 0;
+    background-color: #fff;
+    width: 200px;
+    display: none;
+    border-top: 3px solid #1c5992;
+
+}
+header .nav_header .menu .menu_menu li{
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 14px;
+    line-height: 50px;
+    padding-left: 25px;
+}
+header .nav_header ul.menu_menu a{color: #000}
+header .nav_header ul.menu_menu a:hover{color: #0865bb}
+header .nav_header ul.menu>li{
     list-style: none;
     float: left;
     padding: 25px 20px 22px;
@@ -62,10 +83,10 @@ header .nav_header ul.menu .dropHover{
     top: 0;
     left: 44%;
 }
-header .nav_header ul.menu li{
+header .nav_header ul.menu>li{
     color: #4C4C4C;
     font-size: 14px;
-    font-family: "微软雅黑";
+    font-family: "Microsoft YaHei";
     cursor: pointer;
 }
 header .menu_toggle{float: right;display: none;margin: 6px}
@@ -80,14 +101,19 @@ header .nav_header .menu_toggle_dropDown_con{
     overflow-y: auto;
     display: none;
 }
-header .nav_header .menu_toggle_dropDown_con li{
+header .nav_header .menu_toggle_dropDown_con>li{
     font-size: 24px;
     color: white;
-    font-family: “微软雅黑”;
+    font-family: “Microsoft YaHei”;
     border-bottom: 1px solid #8C8888;
     padding: 0 25px;
     line-height: 70px;
+    cursor: pointer;
 }
+header .nav_header .menu_toggle_dropDown_con_menu{margin: 0;padding: 0;display: none;}
+header .nav_header .menu_toggle_dropDown_con_menu li{font-size: 16px;line-height: 28px}
+
+
 
 /*轮播图*/
 .rslides {
@@ -141,7 +167,7 @@ header .nav_header .menu_toggle_dropDown_con li{
     border: 1px solid white;
     background: none;
     color: white;
-    font-family: "微软雅黑";
+    font-family: "Microsoft YaHei";
     font-size: 12px;
 }
 .rslides .btngroup .btn1{
@@ -182,7 +208,7 @@ article{margin: 45px}
 article .header,.footer-content .header{position: relative;margin-top: 25px}
 article .header h2,.footer-content .header h2{
     text-align: center;
-    font-family: "微软雅黑";
+    font-family: "Microsoft YaHei";
     font-size: 20px;
     margin: 0;
 }
@@ -213,7 +239,7 @@ article .content img{
 article .content li span{ position: absolute;
     top: 228px;
     left: 38%;
-    font-family: "微软雅黑";
+    font-family: "Microsoft YaHei";
     z-index: 10;
 }
 article .content .cover{
@@ -251,16 +277,16 @@ article .content .con span{
 .footer-content{ }
 .footer-content .aboutUs{overflow: hidden;background-color: #ECF0F1;}
 .footer-content .introduce{
-    width: 50%;
+    width: 916px;
     color: #212020;
     margin: 16px auto;
     line-height: 2em;
     text-indent: 25px;
     font-size: 12px;
-    font-family: "微软雅黑";
+    font-family:"Microsoft YaHei";
 }
 .footer-content .introduce_idea{
-    width: 65%;
+    width: 1040px;
     margin: 0 auto;
 }
 .footer-content .introduce_idea ul{margin: 0;
@@ -272,8 +298,8 @@ article .content .con span{
     /* width: 175px; */
     text-align: center;
     font-size: 12px;
-    font-family: "微软雅黑";
-    padding: 0 8%;
+    font-family: "Microsoft YaHei";
+    padding: 0 6%;
     position: relative;
 }
 .footer-content .introduce_idea li .tit{    color: black;
@@ -283,8 +309,8 @@ article .content .con span{
 .footer-content .news{margin-top: 25px}
 .footer-content .news .news_content{width: 100%}
 .footer-content .news .news_content a{text-decoration: none;color: black}
-.footer-content .news .news_content .title{color: #2c95db;font-size: 16px;font-family: "微软雅黑"}
-.footer-content .news .news_content .left,.footer-content .news .news_content .right{font-size: 12px;width: 406px;font-family: 微软雅黑;display: inline-block;position: relative}
+.footer-content .news .news_content .title{color: #2c95db;font-size: 16px;font-family: "Microsoft YaHei"}
+.footer-content .news .news_content .left,.footer-content .news .news_content .right{font-size: 12px;width: 406px;font-family: Microsoft YaHei;display: inline-block;position: relative}
 .footer-content .news .news_content  .summary{height: 95px}
 .footer-content .news .news_content  .summary img{float: left}
 .footer-content .news .news_content  .summary .summary_content{display: inline-block;
@@ -316,7 +342,7 @@ footer .introduce .item_tit{    display: inline-block;
     margin: 14px 2%;
     font-size: 15px;
     color: white;
-    font-family: 微软雅黑;
+    font-family: Microsoft YaHei;
     overflow: hidden;
     position: relative;
 }
@@ -328,7 +354,7 @@ footer hr{
 }
 footer .bottom{
     color: white;
-    font-family: "微软雅黑";
+    font-family: "Microsoft YaHei";
     font-size: 12px;
     overflow: hidden;
     margin-bottom: 8px;

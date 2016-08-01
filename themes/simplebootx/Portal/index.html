@@ -11,7 +11,6 @@
     <title>水、电、气的计量、抄表和收费的专业解决方案提供商-盛帆电子</title>
     <link rel="stylesheet" href="assets/css/zeptoCarousel.css">
     <link rel="stylesheet" href="assets/css/index.css">
-    <!--<link rel="stylesheet" href="assets/css/jquery.fullPage.css">-->
     <link rel="stylesheet" href="assets/css/media.css">
 
     <!--[if IE]>
@@ -47,16 +46,38 @@
     <div class="nav">
         <nav class="nav_header">
             <!--1. ##logo图片,后台应该是可以修改的 -->
-            <div class="logo"><img src="assets/images/index/logo.png" alt="盛帆电子股份有限公司" title="盛帆电子股份有限公司" width="127"></div>
+            <div class="logo"><img src="assets/images/index/logo.png" alt="盛帆电子股份有限公司" title="盛帆电子股份有限公司" width="123"></div>
             <!--2.1 ##菜单栏,这个待定,应该是需要下拉的,如果添加下拉,html结构不一样 -->
             <ul class="menu">
                 <li class="navItem">首页</li>
-                <li class="navItem">关于我们</li>
-                <li class="navItem">公司动态</li>
+                <li class="navItem">关于我们
+                   <ul class="menu_menu">
+                       <li><a href="">董事长致辞</a></li>
+                       <li><a href="">资质荣誉</a></li>
+                       <li><a href="">大事记</a></li>
+                       <li><a href="">公司简介</a></li>
+                       <li><a href="">品质保障</a></li>
+                       <li><a href="">视频宣传</a></li>
+                       <li><a href="">组织结构</a></li>
+                       <li><a href="">企业文化</a></li>
+                   </ul>
+                </li>
+                <li class="navItem">公司动态
+                    <ul class="menu_menu">
+                       <li><a href="">企业新闻</a></li>
+                       <li><a href="">行业动态</a></li>
+                   </ul>
+                </li>
                 <li class="navItem">产品中心</li>
                 <li class="navItem">解决方案</li>
                 <li class="navItem">工程案例</li>
-                <li class="navItem">加入我们</li>
+                <li class="navItem">加入我们
+                    <ul class="menu_menu">
+                       <li><a href="">人才理念</a></li>
+                       <li><a href="">招聘职位</a></li>
+                       <li><a href="">教育培训</a></li>
+                   </ul>
+                </li>
                 <li class="navItem">OA系统</li>
             </ul>
             <!-- 这个不要改 -->
@@ -68,12 +89,34 @@
              <!--2.2 ##这个是小屏幕下的那个菜单按钮，一点击就出现菜单,同上-->
             <ul class='menu_toggle_dropDown_con'>
                 <li class='navItemToggle'>首页</li>
-                <li class='navItemToggle'>关于我们</li>
-                <li class='navItemToggle'>公司动态</li>
+                <li class='navItemToggle'>关于我们
+                    <ul class="menu_toggle_dropDown_con_menu">
+                       <li><a href="">董事长致辞</a></li>
+                       <li><a href="">资质荣誉</a></li>
+                       <li><a href="">大事记</a></li>
+                       <li><a href="">公司简介</a></li>
+                       <li><a href="">品质保障</a></li>
+                       <li><a href="">视频宣传</a></li>
+                       <li><a href="">组织结构</a></li>
+                       <li><a href="">企业文化</a></li>
+                   </ul>
+                </li>
+                <li class='navItemToggle'>公司动态
+                   <ul class="menu_toggle_dropDown_con_menu">
+                       <li><a href="">企业新闻</a></li>
+                       <li><a href="">行业动态</a></li>
+                   </ul>
+                </li>
                 <li class='navItemToggle'>产品中心</li>
                 <li class='navItemToggle'>解决方案</li>
                 <li class='navItemToggle'>工程案例</li>
-                <li class='navItemToggle'>加入我们</li>
+                <li class='navItemToggle'>加入我们
+                    <ul class="menu_toggle_dropDown_con_menu">
+                       <li><a href="">人才理念</a></li>
+                       <li><a href="">招聘职位</a></li>
+                       <li><a href="">教育培训</a></li>
+                   </ul>
+                </li>
                 <li class='navItemToggle'>OA系统</li>
             </ul>
             <div class="clear"></div>
@@ -278,7 +321,6 @@
         <script src='assets/js/index.js'></script>  
         <script src='assets/js/responsiveImg.js'></script>" 
         <script src='assets/js/lunbo.js'></script> 
-        <script src='assets/plugins/jquery.fullPage.min.js' class='fullpage'></script> 
 
      
     <?php

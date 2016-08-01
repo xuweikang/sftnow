@@ -1,3 +1,4 @@
+ 
 $(function(){
     navBarOption.init();
     carousel.init();
@@ -8,18 +9,7 @@ $(function(){
 
 //导航条内容加载
 var navBarOption={
-    contentReload:function(){
-        $("header .nav_header ul.menu li").each(function(x){
-            if(x==3){
-                var span=$("<span class='dropHover' style='display: block;top: 52px'></span>");
-                $(this).addClass("liHover");
-                $(this).append(span);
-            }
-        });
-        $(window).scroll(function(){
-            $("header").css({"position":"fixed","top":0,"left":0,"right":0,"z-index":200,"background":"white"});
-        });
-    },
+ 
     menuToggleClick:function(){
         var flag=true;
         $(".nav_header .menu_toggle").click(function(){
@@ -47,20 +37,51 @@ var navBarOption={
             }
 
         });
-    },
-    menuHover:function(){
-        $("header .nav_header ul.menu li").mouseover(function(){
-            $(this).siblings(".liHover").removeClass();
-            $(".dropHover").remove();
-            $(this).addClass("liHover");
-            var dropHover=$("<span class='dropHover'></span>");
-            $(this).append(dropHover);
-            dropHover.fadeIn(function(){$(this).animate({"top":"52px"})});
-
+ 
+        $(".menu_toggle_dropDown_con .navItemToggle").each(function(x){
+               if(x==0 || x==4){}
+                else{
+                    $(this).click(function(){
+                        $(this).find(".menu_toggle_dropDown_con_menu").stop().slideToggle();
+                        $(this).siblings().find(".menu_toggle_dropDown_con_menu").stop.slideUp();
+                    });
+                }
         });
     },
+    menuHover:function(){
+        $("header .nav_header ul.menu>li").each(function(x){
+            if(x==0 || x==4){
+                  $(this).hover(function(){
+                    $(this).siblings(".liHover").removeClass();
+                    $(".dropHover").remove();
+                    $(this).addClass("liHover");
+                },function(){
+                    $(this).removeClass();
+                    $(".dropHover").remove();
+                })
+            }else{
+                 $(this).hover(function(){
+                    $(this).siblings(".liHover").removeClass();
+                    $(".dropHover").remove();
+                    $(this).addClass("liHover");
+                    var dropHover=$("<span class='dropHover'></span>");
+                    $(this).append(dropHover);
+                    dropHover.fadeIn(function(){$(this).animate({"top":"52px"})});
+                    $(this).find(".menu_menu").css("display","block");
+            },function(){
+                $(this).removeClass();
+                $(".dropHover").remove();
+                 $(this).find(".menu_menu").css("display","none");
+            });
+                 $(this).find(".menu_menu").mouseover(function(){
+                    return false;
+                 })
+            }
+        });
+
+    },
     init:function(){
-        this.contentReload();
+
         this.menuToggleClick();
         this.menuHover();
     }
@@ -125,6 +146,9 @@ var footer={
         $("footer .item_add").each(function(x){
             $(this).click(function(){
                 $(this).siblings(".item").slideToggle();
+ 
+                $(this).parent().siblings(".item_tit").find(".item").slideUp();
+ 
             });
         });
     },
@@ -132,3 +156,4 @@ var footer={
         this.addClick();
     }
 };
+ 
