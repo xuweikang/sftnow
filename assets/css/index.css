@@ -110,7 +110,7 @@ header .nav_header .menu_toggle_dropDown_con>li{
     line-height: 70px;
     cursor: pointer;
 }
-header .nav_header .menu_toggle_dropDown_con_menu{margin: 0;padding: 0;display: none;}
+header .nav_header .menu_toggle_dropDown_con_menu{margin: 0;padding: 0;}
 header .nav_header .menu_toggle_dropDown_con_menu li{font-size: 16px;line-height: 28px}
 
 

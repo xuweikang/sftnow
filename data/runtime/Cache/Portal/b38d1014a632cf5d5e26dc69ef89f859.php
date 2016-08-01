@@ -247,7 +247,8 @@
             <!-- 7.1 ##二维码-->
             <div class='ewm'><img src='assets/images/index/erweima.png' alt=''></div>
             <!-- 7.2 ##内容列举-->
-            <div class="item_tit">产品中心
+            <div class="item_tit">
+               <span>产品中心</span>
                <div class="item">预设填充</div>
                <div class="item">预设填充</div>
                <div class="item">预设填充</div>
@@ -259,7 +260,8 @@
                <div class="item">预设填充</div>
                <div class="item_add" style='position:absolute;right:0;top:0;display: none'>+</div>
             </div>
-            <div class="item_tit">解决方案
+            <div class="item_tit">
+               <span>解决方案</span>
                <div class="item">预设填充</div>
                <div class="item">预设填充</div>
                <div class="item">预设填充</div>
@@ -267,17 +269,20 @@
                <div class="item">预设填充</div>
                <div class="item_add" style='position:absolute;right:0;top:0;display: none'>+</div>
             </div>
-            <div class="item_tit">工程案例
+            <div class="item_tit">
+               <span>工程案例</span>
                <div class="item">预设填充</div>
                <div class="item_add" style='position:absolute;right:0;top:0;display: none'>+</div>
                 
             </div>
-            <div class="item_tit">下载中心
+            <div class="item_tit">
+                <span>下载中心</span>
                 <div class="item">预设填充</div>
                 <div class="item">预设填充</div>
                 <div class="item_add" style='position:absolute;right:0;top:0;display: none'>+</div>
             </div>
-            <div class="item_tit">联系我们
+            <div class="item_tit">
+                <span>联系我们</span>
                 <div class="item">预设填充</div>
                 <div class="item">预设填充</div>
                 <div class="item_add" style='position:absolute;right:0;top:0;display: none'>+</div>
