@@ -32,14 +32,16 @@
     </style>
     <![endif]-->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
 <body>
 <!--首页头部(包括头部和导航菜单)-->
 <?php
  include("public/header.html"); ?>
-
+<div class="banner">
+    
+</div>
 <!-- //localhost/thinkcmfx/index.php?g=portal&m=index&a=render&page=XXX -->
 <div class="main">
     <div class="breadMenu">
