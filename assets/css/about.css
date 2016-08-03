@@ -1,0 +1,165 @@
+
+header{position: inherit;}
+.banner{background-image: url(../images/bannerTop/banner_01.jpg);height: 180px}
+.main{margin: 0 auto;width: 1002px;margin-top: 20px}
+.main a{text-decoration: none;color:#666;font-family: "Microsoft YaHei";}
+.main .breadMenu{    height: 39px;
+    overflow: hidden;
+    background: url(../images/X.png) 0px -144px repeat-x;
+    border-left: 1px #fff solid;
+    border-right: 1px #fff solid;
+    line-height: 44px;}
+.main .breadMenu a{padding: 0 26px 0 20px;height: 39px;line-height: 39px;display: inline-block;}
+.main .breadMenu a:hover{text-decoration: underline;}
+.main .breadMenu .home{background: url(../images/path01.jpg) top right no-repeat;}
+.main .breadMenu .bread2{background: url(../images/path02.jpg) top right no-repeat;}
+.main .breadMenu .bread3{background: url(../images/path03.jpg) top right no-repeat;}
+.main .mainMenu dd{float: left;}
+.main .mainMenu dd a:hover{color: red}
+.main .mainMenu .hover{border-bottom: 1px solid #275d96;padding-bottom: 9px;font-weight: bolder;}
+.main .Single{height: 780px;padding: 59px 50px}
+.main .Single .chairman img{float: left;margin: 19px 10px;}
+.main .Single .chairman p{ 
+    float: right;
+    width: 620px;
+    text-indent: 2em;
+    text-align: justify;
+    font-size: 13px;
+    color: #212020;
+    line-height: 24px;
+    padding: 2px 2px;
+    font-family: 'Microsoft YaHei';
+}
+.main .Single .introduce p{
+	float: inherit;
+	width: auto;
+}
+.main .select{margin-top: 60px}
+.main .select ul{margin:0;padding: 0}
+.main .select li{
+	display: block;
+    float: left;
+    margin-right: 2px;
+    width: 170px;
+    height: 28px;
+    text-align: center;
+    background: url(../images/pro02.jpg) repeat-x;
+    line-height: 28px;
+    margin-top: 8px;
+    border: 1px solid #d7d7d7;
+    cursor: pointer;
+    font-family: "Microsoft YaHei"
+}
+.main .select .liHover{
+    background: url(../images/pro01.jpg) repeat-x;
+    font-weight: bolder;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    margin-top:0; 
+}
+
+.main .Single .quality h2{color:#1c5992;}
+.main .Single .quality p{
+	font-size: 13px;
+    color: #4c4c4c;
+    line-height: 24px;
+    font-family: "Microsoft YaHei"
+}
+.main .Single .quality table{border-collapse: collapse;}
+.main .Single .quality th{
+    border-right: 1px #d0d0d0 solid;
+    border-bottom: 1px #d0d0d0 solid;
+    line-height: 28px;
+    padding: 2px 4px;
+    text-align: center;
+    color: #454545;
+    background-color: #1c5992;
+    color: #fff;
+}
+.main .Single .quality td{
+    border-right: 1px #d0d0d0 solid;
+    border-bottom: 1px #d0d0d0 solid;
+    line-height: 28px;
+    color: #000;
+    padding: 10px;
+    vertical-align: top;
+    text-align: justify;
+    font-size: 13px;
+    font-family: "Microsoft YaHei";
+}
+.main .Single .culture p{
+	font-size: 13px;
+    color: #000;
+    line-height: 24px;
+    font-family: "Microsoft YaHei"
+}
+.main .Single .culture p{
+	font-size: 13px;
+    color: #000;
+    line-height: 24px;
+    font-family: "Microsoft YaHei"
+}
+.main .Single .culture .img1{
+	float: right;
+}
+.main .Single .culture .c1 p{
+	text-indent:40px;
+}
+.main .History ul.Year li{
+padding: 10px 0px 20px;
+}
+.main .History ul.Year li div.text div p{
+    line-height: 24px;
+    color: #666666;
+    float: left;
+    width: 630px;
+    font-size: 13px; 
+    position: relative;
+    top: -14px;
+    font-family: 'Microsoft Yahei';
+}
+.main .History ul.Year li div.text{
+   float: left;
+   width: 730px;
+   overflow: hidden; 
+}
+.main .History ul.Year li div.text h3{
+    color: #2962e6;
+    font-style: italic;
+    padding-bottom: 4px; 
+    background: url(../images/single/SL_history01.jpg) left bottom repeat-x;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bolder;
+    text-indent: 5px; 
+}
+.main .History ul.Year li div.text div h6{
+    float: left;
+    width: 48px;
+    height: 18px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-right: 11px;
+    margin-top: 3px;
+    padding: 0px; 
+    background: url(../images/single/Background.png) -591px -1772px no-repeat;
+}
+
+
+.main .History ul.Year li div.text div{
+	padding: 11px 30px 0 8px;
+}
+
+.wrapper{margin-top:95px;width:100%;}
+.container{position:relative;width:1100px;margin:0 auto 25px;padding-bottom:10px;}
+.grid{width:188px;min-height:100px;padding:15px;background:#fff;margin:8px;font-size:12px;float:left;box-shadow:0 1px 3px rgba(34,25,25,0.4);-moz-box-shadow:0 1px 3px rgba(34,25,25,0.4);-webkit-box-shadow:0 1px 3px rgba(34,25,25,0.4);-webkit-transition:top 1s ease, left 1s ease;-moz-transition:top 1s ease, left 1s ease;-o-transition:top 1s ease, left 1s ease;-ms-transition:top 1s ease, left 1s ease;}
+.grid strong{border-bottom:1px solid #ccc;margin:10px 0;display:block;padding:0 0 5px;font-size:17px;}
+.grid .meta{text-align:right;color:#777;font-style:italic;}
+.grid .imgholder img{max-width:100%;background:#ccc;display:block;background:url(../images/loding.gif) no-repeat center;}
+
+

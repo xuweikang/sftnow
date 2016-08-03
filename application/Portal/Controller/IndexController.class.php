@@ -18,6 +18,36 @@ class IndexController extends HomebaseController {
     	$this->display(":index");
     }
 
+    function render($page){
+    	if($page==''){
+
+    	}else if($page=='aboutDefault'){
+               $this->display('/about:default');
+        }
+        else if($page=='about2'){
+               $this->display('/about:2');
+        }
+        else if($page=='about3'){
+               $this->display('/about:3');
+        }
+        else if($page=='about4'){
+               $this->display('/about:4');
+        }
+        else if($page=='about5'){
+               $this->display('/about:5');
+        }
+        else if($page=='about6'){
+               $this->display('/about:6');
+        }
+        else if($page=='about7'){
+               $this->display('/about:7');
+        }
+        else if($page=='about8'){
+               $this->display('/about:8');
+        }
+
+    }
+
 }
 
 
