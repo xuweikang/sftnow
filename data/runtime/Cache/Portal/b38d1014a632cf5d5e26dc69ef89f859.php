@@ -170,12 +170,10 @@
     <?php
  $fb_fs= '移动设备'; }else if(stristr($user_agent,'Linux')){ $fb_fs= 'Linux'; }else{ ?>
         
-        <script src='assets/plugins/jquery-1.9.1.min.js'></script>" 
+        <script src='assets/plugins/jquery-1.9.1.min.js'></script>
         <script src='assets/js/index.js'></script>  
-        <script src='assets/js/responsiveImg.js'></script>" 
+        <script src='assets/js/responsiveImg.js'></script>
         <script src='assets/js/lunbo.js'></script> 
-
-     
     <?php
  $fb_fs= 'PC设备'; } ?>
 </body>

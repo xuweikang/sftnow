@@ -1,0 +1,18 @@
+[ 2016-08-02T09:37:22+08:00 ] ::1 /sftnow/index.php?g=portal&m=index&a=render&page=about
+ERR: 模板不存在:themes/simplebootx/Portal/about.html
+
+[ 2016-08-02T09:38:29+08:00 ] ::1 /sftnow/index.php?g=portal&m=index&a=render&page=about
+ERR: 模板不存在:themes/simplebootx/Portal/about.html
+
+[ 2016-08-02T09:41:01+08:00 ] ::1 /sftnow/index.php?g=portal&m=index&a=render&page=about
+ERR: 模板不存在:themes/simplebootx/Portal/about.html
+
+[ 2016-08-02T09:49:56+08:00 ] ::1 /sftnow/index.php?g=portal&m=index&a=render&page=about
+ERR: 模板不存在:themes/simplebootx/PortalIndex/about.html
+
+[ 2016-08-02T09:49:56+08:00 ] ::1 /sftnow/index.php?g=portal&m=index&a=render&page=about
+ERR: 模板不存在:themes/simplebootx/PortalIndex/about.html
+
+[ 2016-08-02T09:50:21+08:00 ] ::1 /sftnow/index.php?g=portal&m=index&a=render&page=about
+ERR: 模板不存在:themes/simplebootx/Portal/about.html
+
